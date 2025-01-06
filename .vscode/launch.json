@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug main",
+      "program": "${workspaceFolder:SwiftHomework1}\\.build/debug/main",
+      "args": [],
+      "cwd": "${workspaceFolder:SwiftHomework1}",
+      "preLaunchTask": "swift: Build Debug main"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Release main",
+      "program": "${workspaceFolder:SwiftHomework1}\\.build/release/main",
+      "args": [],
+      "cwd": "${workspaceFolder:SwiftHomework1}",
+      "preLaunchTask": "swift: Build Release main"
+    }
+  ]
+}

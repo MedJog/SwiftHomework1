@@ -37,5 +37,6 @@ for i in 10...50 where i % 2 != 0 {
     }
     else {
       print("Next")
+      break
     }
 }
